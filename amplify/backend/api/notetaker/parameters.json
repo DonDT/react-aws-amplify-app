@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "notetaker",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitof35039d9",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://notetaker-20191028135832-deployment/amplify-appsync-files/schema.graphql.1572268190037",
+    "ResolverBucket": "notetaker-20191028135832-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1572268190037"
+}

@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "notetaker-20191028135832-authRole",
+            "UnauthRoleArn": "arn:aws:iam::143552930191:role/notetaker-20191028135832-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::143552930191:role/notetaker-20191028135832-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "notetaker-20191028135832-deployment",
+            "UnauthRoleName": "notetaker-20191028135832-unauthRole",
+            "StackName": "notetaker-20191028135832",
+            "StackId": "arn:aws:cloudformation:eu-central-1:143552930191:stack/notetaker-20191028135832/43933d00-f97a-11e9-ba02-0a1a4d297742"
+        }
+    }
+}
