@@ -1,13 +1,11 @@
 {
     "AppSyncApiName": "notetaker",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
     "AuthCognitoUserPoolId": {
         "Fn::GetAtt": [
-            "authcognitof35039d9",
+            "authnotetakerfd4a94d5",
             "Outputs.UserPoolId"
         ]
-    },
-    "schemaGraphql": "s3://notetaker-20191028135832-deployment/amplify-appsync-files/schema.graphql.1572268190037",
-    "ResolverBucket": "notetaker-20191028135832-deployment",
-    "ResolverRootKey": "amplify-appsync-files",
-    "DeploymentTimestamp": "1572268190037"
+    }
 }
