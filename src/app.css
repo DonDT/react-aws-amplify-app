@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed|Encode+Sans+Semi+Expanded&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  padding: 20px;
+}
+.main-heading {
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+}
+.form {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 20px;
+  font-size: 10;
+}
+.notesDiv {
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  padding: 10px;
+  list-style: none;
+}
+.listItemButton {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
