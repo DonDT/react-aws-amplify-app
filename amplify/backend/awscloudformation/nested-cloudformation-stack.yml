@@ -132,7 +132,7 @@
 						]
 					},
 					"S3DeploymentBucket": "amplify-note-taker-notetaker-115325-deployment",
-					"S3DeploymentRootKey": "amplify-appsync-files/16c9148bcff4553288ff384c4ebe0478a269a05b",
+					"S3DeploymentRootKey": "amplify-appsync-files/f42678ec0317f199a1c6dc07078485d63a7aea95",
 					"env": "notetaker"
 				}
 			}
